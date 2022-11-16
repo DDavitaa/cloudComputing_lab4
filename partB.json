@@ -1,0 +1,18 @@
+{
+"properties": {
+"ipConfigurations": [
+{
+"name": "ipconfig1",
+"properties": {
+"publicIPAddress": {
+"id": "/subscriptions/a1d39176-41b1-442b-921e-1f6ffa4648c8/resourceGroups/david-rg/providers/Microsoft.Network/publicIPAddresses/David-ip"
+},
+"subnet": {
+"id": "/subscriptions/a1d39176-41b1-442b-921e-1f6ffa4648c8/resourceGroups/david-rg/providers/Microsoft.Network/virtualNetworks/resource-vnet/subnets/default"
+}
+}
+}
+]
+},
+"location": "westeurope"
+}

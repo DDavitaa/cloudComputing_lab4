@@ -1,0 +1,49 @@
+{
+"id": "/subscriptions/a1d39176-41b1-442b-921e-1f6ffa4648c8/resourceGroups/david-rg/providers/Microsoft.Compute/virtualMachines/David",
+"type": "Microsoft.Compute/virtualMachines",
+"properties": {
+"osProfile": {
+"adminUsername": "David",
+"secrets": [
+],
+"computerName": "David",
+"linuxConfiguration": {
+"ssh": {
+"publicKeys": [
+{
+"path": "/home/David/.ssh/authorized_keys",
+"keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqOqbWwEHrwI0IrYdpeUV8kinlsDIxnMov6COMinwK2MtTEd09GgzStzIAS0eI5ticgWk9EyX1ywVDiPd3NyZU3MTKiCRvMbcKeUHXWktCnTYACC4EZr/12KR1gX4dSsjzxYPR4SxGhQsVyPvzFrCw2+C7i+CQ6AqjaDGW6rwm5CGfnqfq0nuAFKrODyXjezMPRI72q0xs3jt0OPVpNOnXGrgWbZVvYNib4aX9gmBEKGAVmb3XNY7eQNJ4tmukt6E8PMKx/dVfdEF5VDwa0x3zWPTl0uKrqK48rv0on4618u7QRRQCjA2DfO72VM9hvq0OKas30sCiYm36EwgriHStg52oA/+FjKLv6ubgLXxckcc/RzVZWcSSyE4fCHRueOeKWFNmQ7w2FrUxKbKi1QVGM7RAqCJIdWVpf7tcNRj5Z5ZcMpfNwZL53np4WI9j+H7+j8i0uDNyhaoDVq0QnIbcCTzPgC9ODqV2GewwWoL7QTC+OMHFxB2Em8PCjmDr9uk= David@DESKTOP-4U713OK"
+}
+]
+},
+"disablePasswordAuthentication": true
+}
+},
+"networkProfile": {
+"networkInterfaces": [
+{
+"id": "/subscriptions/a1d39176-41b1-442b-921e-1f6ffa4648c8/resourceGroups/david-rg/providers/Microsoft.Network/networkInterfaces/david252",
+"properties": {
+"primary": true
+}
+}
+]
+},
+"storageProfile": {
+"imageReference": {
+"sku": "20_04-lts-gen2",
+"publisher": "canonical",
+"version": "latest",
+"offer": "0001-com-ubuntu-server-focal"
+},
+"dataDisks": [
+]
+},
+"hardwareProfile": {
+"vmSize": "Standard_B2s"
+},
+"provisioningState": "Creating"
+},
+"name": "David",
+"location": "westeurope"
+}
